@@ -206,15 +206,17 @@ button:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 4p
 .insight p { margin: 12px 0 0; color: var(--muted); font-size: .92rem; line-height: 1.9; }
 .insight .tags { margin-top: 16px; }
 .exemplars h3 { margin: 0; font: 400 1.16rem/1.5 var(--serif); }
-.exemplar-lead { margin: 10px 0 0; color: var(--muted); font-size: .88rem; line-height: 1.8; }
+.howto h3 { margin: 0; font: 400 1.16rem/1.5 var(--serif); }
+.howto p { margin: 12px 0 0; color: var(--muted); font-size: .92rem; line-height: 1.9; }
+.exemplar-lead { margin: 10px 0 0; color: var(--muted); font-size: .9rem; line-height: 1.85; }
 .exemplar-list { list-style: none; margin: 18px 0 0; padding: 0; }
-.exemplar-list li + li { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line-soft); }
-.exemplar-name { font: 400 1.02rem/1.4 var(--serif); }
+.exemplar-list li + li { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line-soft); }
+.exemplar-name { font: 400 1.08rem/1.4 var(--serif); }
 .exemplar-name span { margin-left: 8px; color: var(--gold); font-size: .75rem; letter-spacing: .08em; }
-.exemplar-list p { margin: 6px 0 0; color: var(--muted); font-size: .86rem; line-height: 1.7; }
+.exemplar-list p { margin: 8px 0 0; color: var(--muted); font-size: .88rem; line-height: 1.85; }
 .exemplar-hint { margin: 16px 0 0; color: var(--gold); font-size: .82rem; line-height: 1.7; }
-.analysis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.analysis { position: relative; min-height: 190px; }
+.analysis-grid { display: flex; flex-direction: column; gap: 12px; }
+.analysis { position: relative; min-height: 0; }
 .analysis-no { display: block; margin-bottom: 12px; color: var(--gold); font: .72rem/1 var(--serif); letter-spacing: .18em; }
 .analysis h3, .growth h3 { margin: 0; font: 400 1.05rem/1.5 var(--serif); }
 .analysis p, .growth p { margin: 10px 0 0; color: var(--muted); font-size: .88rem; line-height: 1.85; }
